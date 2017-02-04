@@ -17,3 +17,26 @@ x = matrix(1:10, nrow=2, ncol=3)
 #       [,1] [,2] [,3]
 #[1,]    1    3    5
 #[2,]    2    4    6
+
+# now you can do any sort of mathematcis with this matrix
+
+x = x*x
+
+x = x/x
+
+
+# another way to create matrices is cbind() and rbind()
+z <- cbind(1:5, 6:10)
+# first argument is first column values, and second argument is second column values
+# it will output as 
+
+"
+       [,1] [,2]
+[1,]    1    6
+[2,]    2    7
+[3,]    3    8
+[4,]    4    9
+[5,]    5   10
+
+"
+# rbind() work exactily the same except it bind the value by rows.
