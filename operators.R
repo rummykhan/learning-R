@@ -5,3 +5,9 @@
 
 myName <- 'rummykhan'
 print(myName)
+
+
+# Sequence Operator
+# Here colon is the sequence operator
+x <- 1:20
+
