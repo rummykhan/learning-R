@@ -3,3 +3,7 @@ myfunction <- function(){
   y = mean(x)
   print(y)
 }
+
+readCsv  <- function(name){
+  read.csv(name)
+}
